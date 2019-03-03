@@ -1,2 +1,2 @@
-# homr
+# HOMR
 Hall Of Mirrors Reverberator
