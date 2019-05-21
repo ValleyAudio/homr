@@ -1,8 +1,7 @@
 # HOMR
 Hall Of Mirrors Reverberator
 
-Copyright (c) 2019 Dale Johnson
-GPL-3 License
+Copyright (c) 2019 Dale Johnson, GPL-3 License
 
 ## Prerequisites
 HOMR depends on **libsndfile** and **vectorclass**.
