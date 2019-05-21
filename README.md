@@ -1,7 +1,7 @@
 # HOMR
 Hall Of Mirrors Reverberator
 
-Copyright (c) 2019 Dale Johnson, GPL-3 License
+Copyright (c) 2019 Dale Johnson
 
 This software was written as part of PhD study that took place at the University of Huddersfield
 
@@ -29,3 +29,7 @@ HOMR can be executed from a command-line using the following example command:
 ```
 ./HOMR -m concertHall.smd -c xy_6m.cfg -i 3 -r 50000 -s 44100 -n concertHallXY -l 0
 ```
+
+## License
+
+This software is licensed using GNU Public License version 3. See LICENSE.md for further details.
