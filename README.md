@@ -3,7 +3,7 @@ Hall Of Mirrors Reverberator
 
 Copyright (c) 2019 Dale Johnson, GPL-3 License
 
-This software was written as port of PhD study that took place at the University of Huddersfield
+This software was written as part of PhD study that took place at the University of Huddersfield
 
 ## Prerequisites
 HOMR depends on **libsndfile** and **vectorclass**.
