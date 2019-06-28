@@ -22,7 +22,7 @@ struct Model
     void addReceiver(const Receiver& newReceiver);
     void addSurface(const Triangle& surface);
     void appendSurfaces(const std::vector<Triangle>& surfaces);
-    void calcSurfaceArea();
+    float calcSurfaceArea();
 };
 
 #endif /* Model_hpp */

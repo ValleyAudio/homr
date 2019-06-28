@@ -133,6 +133,7 @@ int main(int argc, char* argv[])
     std::cout << "using config '" << argList.configFilename << "', ";
     std::cout << "ISM order: " << argList.ismDepth;
     std::cout << " ray count: " << argList.rayCount << std::endl;
+    std::cout << "Total surface area: " << model.calcSurfaceArea() << " m^2" << std::endl;
     std::cout << std::endl;
     
     std::string fileName = argList.outputFilename;

@@ -29,10 +29,11 @@ void Model::appendSurfaces(const std::vector<Triangle> &surfaces)
     _surfaces.insert(_surfaces.begin(), surfaces.begin(), surfaces.end());
 }
 
-void Model::calcSurfaceArea()
+float Model::calcSurfaceArea()
 {
     for(auto i = 0; i < _surfaces.size(); i++)
     {
         _surfaceArea += _surfaces[i]._area;
     }
+    return _surfaceArea;
 }
