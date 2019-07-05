@@ -34,6 +34,16 @@ HOMR can be executed from a command-line using the following example command:
 ```
 ./HOMR -m largeroom.smd -c xy_6m.cfg -i 3 -r 50000 -s 44100 -n largeRoomXY -l 0
 ```
+
+where the following flags mean:
+* **-m** : Model file
+* **-c** : Configuration file
+* **-i** : Image Source Method maximum reflection order
+* **-r** : Number of rays for ray tracing
+* **-s** : Sample rate of output .WAV file
+* **-n** : Name of output files
+* **-l** : Normalisation flag, where a value of 1 enables it
+
 After completion, two files are produced:
 * **Raw Impulse Vector (RIV)**: A CSV file that contains all of the sound rays captured by the receiver, along with meta-data about each ray (see the section below).
 
